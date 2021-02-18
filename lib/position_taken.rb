@@ -29,7 +29,7 @@ def position_taken?(board, index)
     false
   elsif board[index] ==""
     false
-  elsif board[index] =="nil"
+  else board[index] ==nil
     false
   end
 end
