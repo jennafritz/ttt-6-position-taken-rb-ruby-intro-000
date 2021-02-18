@@ -25,7 +25,6 @@
 #end
 
 def position_taken?(board, index)
-  board = [" "," "," "," "," "," "," "," "," "]
   if board[index] ==" "
     print "test"
   end
