@@ -26,6 +26,6 @@
 
 def position_taken?(board, index)
   if board[index] ==" "
-    print false
+    false
   end
 end
