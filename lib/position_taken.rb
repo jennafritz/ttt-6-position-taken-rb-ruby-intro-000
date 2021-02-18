@@ -24,9 +24,8 @@
 #  end
 #end
 
-def position_taken?(board, position)
+def position_taken?(board, index)
   board = [" "," "," "," "," "," "," "," "," "]
-  index = "#{position}".to_i - 1
   if board[index] ==" "
     print "test"
   end
